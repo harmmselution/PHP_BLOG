@@ -5,8 +5,9 @@ $config = array(
         'server' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'name' => 'test_bd'
-    )
-)
-
+        'name' => 'test_bd',
+    ),
+    'vk_url' => "http://vk.com/somebody",
+);
+ require 'db.php';
 ?>
