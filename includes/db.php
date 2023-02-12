@@ -1,5 +1,5 @@
 <?php 
-include('./config.php');
+require ('./config.php');
 
 $connection = mysqli_connect(
     $config['db']['server'],
