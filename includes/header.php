@@ -25,7 +25,7 @@
                 while( $cat = mysqli_fetch_assoc($categories) ) 
                 {
                     ?>
-                     <li><a href="#"><?php echo $cat['title'] ?></a></li>
+                     <li><a href="/category.php?id=<?php echo $cat['id'] ?>"><?php echo $cat['title'] ?></a></li>
                     <?php
                 }
                 ?>
